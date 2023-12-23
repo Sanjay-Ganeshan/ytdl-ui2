@@ -1,3 +1,5 @@
+Requires ffmpeg.
+
 First time setup:
 
 ```
