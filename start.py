@@ -17,6 +17,10 @@ def upgrade_self() -> None:
 def main() -> None:
     upgrade_downloader()
     upgrade_self()
+
+    import ui
+    ui.start()
+    
     
 
 if __name__ == "__main__":
